@@ -2,3 +2,31 @@ article {
     width: 81.78%;
     margin: 68px 9.11% 130px 9.11%;
 }
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.big-picture{
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 2;
+    width: 750px;
+}
+.container-item{
+    width: 365px;
+}
+.product-description{
+    width: 65%;
+    font-size: large;
+}
+.cart{
+    width: 30%;
+}
+.details-grid-container{
+    display: grid;
+    grid-template-columns: 230px 230px;
+    gap: 20px;
+}
+.details-grid-container div span{
+    margin-left: 8px;
+}
