@@ -57,7 +57,7 @@ article {
     color: white;
     text-align: center;
     background-color: #00bdd6;
-    padding:17px;
+    padding:14px;
     font-size: 20px;
     border-radius: 5px;
 }
@@ -70,11 +70,41 @@ article {
     border: 2px solid #00bdd6;
     font-size: 20px;
     border-radius: 5px;
-    padding:17px;
+    padding:14px;
     color:currentColor
 }
 hr{
     height: 3px;
     background-color: #F6F7F8;
     border: none;
+}
+.reviews-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reviews-title-left{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.reviews-title-left *{
+    margin: 0;
+}
+.reviews-title-right{
+    color:#adb2ba;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.reviews-list{
+    display:grid;
+    grid-template-columns: auto auto;
+
+}
+.reviews-list-contain{
+    width: 45%;
 }
